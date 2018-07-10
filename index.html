@@ -16,35 +16,37 @@
 <body>
 
   <header class="fixed-top bg-white ">
-    <nav class="navbar-fixed-top navbar navbar-expand-lg navbar-light ">
-      <img class="navbar-brand logo" src="images/logonoa.png" alt="">
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active .col-6 .col-md-4">
-            <a class="nav-link" href="#">About us <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item disabled .col-6 .col-md-4">
-            <a class="nav-link disabled" href="#">Contact us</a>
-          </li>
-          <li class="nav-item disabled .col-6 .col-md-4">
-            <a class="nav-link disabled" href="#">price</a>
-          </li>
-        </ul>
-
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        </form>
-      </div>
-
-      <div class=" ms-2">
-        <img src="images/searchicon.png" class="iconsearch cursor-pointer" alt="Responsive image" data-toggle="modal" data-target="#searchModal">
-      </div>
-
-    </nav>
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">About us</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="//codeply.com">Contact us</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Price</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="mx-auto order-0">
+              <a class="navbar-brand mx-auto align-middle" href="#"><img class="logo" src="images/logonoa.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+          </div>
+          <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <form class="form-inline my-2 my-lg-0">
+                      <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                    </form>
+                  </li>
+              </ul>
+          </div>
+      </nav>
   </header>
 
   <div class=" position-absolute mt-5">
@@ -52,15 +54,15 @@
     </div>
     <img class="img-fluid"src="images/massagehand.png" alt="image hand">
   </div>
-  <div class="container">
 
+  <div class="container">
   <div class="row">
-    <div class="col col-12 col-md-6 text-white pt-3">
+    <div class="col-md text-white pt-3">
       <h1 class="pt-2 h2">Open from monday to saturday </h1>
       <p class="mt-2">10:00 to 19:00</p>
       <p class="mt-2">Contact us (047)-45532850/46221026</p>
     </div>
-    <div class="col col-12 col-md-4 bookform">
+    <div class="col-md-4 bookform">
       <form class="" id="searchform" action="#" method="get">
         <div class="">
           <h1 class="h1 p-2">Book now</h1>
@@ -78,7 +80,7 @@
           </select>
         </div>
 
-        <div class="row form-group ">
+        <div class="row form-group">
 
           <div class="col-6 col-sm-3 p-2">
             <input class="" type="checkbox" aria-label="Checkbox for following text input"value="older" checked> Older
@@ -96,13 +98,7 @@
             <input class="" type="checkbox" aria-label="Checkbox for following text input" value="disabilities">Disabilities
           </div>
         </div>
-        <div class="form-check p-2">
-          <label class="form-check">
-            <input type="checkbox" class="form-check-input p-2">
-            Mundu eftir min val
-          </label>
-        </div>
-        <button id="bookbutton" type="submit" class="m-3 btn btn-outline-info btn-lg btn-group-toggle" type="submit" >Book now</button>
+        <button id="bookbutton" type="submit" class="m-3 btn btn-outline-info btn-lg btn-group-toggle" type="submit">Book now</button>
         <div class="cancel text-center font-weight-bold pt-5">
           <a href="modify.html">Cancel or change booking</a>
         </div>
@@ -111,6 +107,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
     </div>
+  </div>
   </div>
 
   <div class="container">
