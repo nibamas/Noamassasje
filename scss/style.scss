@@ -5,7 +5,24 @@ variable {
   $purple:rgb(103, 66, 106);
 }
 
+.open{
+  height:100%;
+  background-color: rgba(103, 66, 106, 0.4);
+  position: absolute;
+  display: block;
+  width: 100%;
+  transform-origin: top right;
+      -ms-transform: skew(0deg, -10deg);
+      -webkit-transform: skew(0deg, -10deg);
+      transform: skew(0deg, -10deg);
 
+}
+
+.bkimage{
+}
+.box{
+  box-shadow: 2px 2px 4px grey;
+}
 body {
   background-color: #fff;
   text-align: center;
@@ -49,12 +66,7 @@ p {
   border: solid rgb(103, 66, 106);
   background-color: rgb(103, 66, 106);
 }
-.open {
-  height: 35%;
-  background-color: rgba(103, 66, 106, 0.4);
-  position: absolute;
-  margin-top: 45%;
-}
+
 
 .text-white {
   height: 40%;
