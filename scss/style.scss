@@ -20,30 +20,24 @@ variable {
 
 .bkimage{
 }
+
 .box{
   box-shadow: 2px 2px 4px grey;
 }
+
 body {
   background-color: #fff;
   text-align: center;
 }
 
-/* h1{
-	margin-bottom: 20px;
-	background-color: #fff;
-	width: 45px;
-	height: 60px;
-	font-size: 60px;
-	font-family: sans-serif;
-} */
 .iconsearch {
   width: 15%;
   height: auto;
 }
 
 .navbar img.logo {
-  width: 64px;
-  height: auto;
+  width: auto;
+  height: 64px;
 }
 
 p {
@@ -55,22 +49,49 @@ p {
 .banner {
 
 }
-.bookform {
-  background-color: #fff;
-  border-radius: 30px;
-  margin-top: 150px;
-  height: auto;
-}
 
 #bookbutton {
   border: solid rgb(103, 66, 106);
   background-color: rgb(103, 66, 106);
 }
 
+.navbar-behind {
+  height: 93px;
+}
 
-.text-white {
+.cover {
+  border: 1px red solid;
+  height: 50%;
+  background-image: url("../images/backmassage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cover-triangle {
+	width: 0;
+	height: 0;
+	border-bottom: 400px solid rgba(143, 170, 191, 0.4);
+	border-left: 3000px solid transparent;
+  position: relative;
+  bottom: 400px;
+}
+
+.cover-form {
+  margin-top: 150px;
+  border-radius: 30px;
+  background-color: #fff;
+  bottom: -50px;
+  z-index: 1;
+}
+
+.cover-text {
   height: 40%;
   margin-top: 45%;
+}
+
+.cover-spacing {
+  height: 50px;
 }
 
 .search {

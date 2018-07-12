@@ -2,3 +2,5 @@ build
 .sass-cache
 node_modules
 css
+.DS_Store
+images/Thumbs.db
